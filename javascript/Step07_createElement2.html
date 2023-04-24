@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step07_createElement.htm2</title>
+    <style type="text/css">
+        h1{
+            color:blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>문서 객체를 javascript로 만들기 테스트</h1>
+    <button id="addBtn">추가하기</button>
+    <div class = "wrapper">
+
+    </div>
+    <h2>git 테스트를 위한 어쩌구 저쩌구...제목 입니다.</h2>
+    <script>
+        
+    
+        document.equerySelector("#addBtn").addEventListener("click", ()=>{
+            let p1 = document.createElement("p");
+            p1.innerText="p1 입니다.";
+            document.querySelector(".wrapper").append(p1);
+        });
+
+    
+    </script>
+</body>
+</html>

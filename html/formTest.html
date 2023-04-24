@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formTest.html</title>
+    <style>
+        h1{
+            background-color: black;
+            text-align: center;
+            color : yellow;
+        }
+        table{
+            width : 100%;
+            text-align: center;
+            border : 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td{
+            border : 1px solid black;
+            padding : 10px;
+        }
+        .text1{
+          color : blue;
+        }
+        #text2{
+            color : yellow
+        }
+    </style>
+</head>
+<body>
+    <h1>과제준비1.테이블</h1>
+    <caption>우도입도 총괄요금표</caption>
+    <table>
+      <tr>
+        <td rowspan="2" class="text1">구분</td>
+        <td colspan="3">우도입도 총괄요금표</td>
+      </tr>
+      <tr>
+        <td>선박요금</td>
+        <td>도립공원입장료</td>
+        <td>터미널이용료</td>
+      </tr>
+      <tr>
+        <td>성인</td>
+        <td>2,000원</td>
+        <td>1,000원</td>
+        <td>500원</td>
+      </tr>
+      <tr>
+        <td>중학생이상</td>
+        <td>2,000원</td>
+        <td>800원</td>
+        <td>300원</td>
+      </tr>
+      <tr>
+        <td id="text2">초등학생</td>
+        <td>700원</td>
+        <td>500원</td>
+        <td>300원</td>
+      </tr>
+      <tfoot>
+      <tr>
+        <td colspan="4" style="background-color: white;">*이륜차(오토바이,자전거)및 화물챠량은 별도 문의</td>
+      </tr>
+      </tfoot>
+    </table>
+    
+</body>
+</html>

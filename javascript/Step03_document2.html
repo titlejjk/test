@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step03_document2.html</title>
+    <style>
+        p{
+            color: blue;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            cursor: pointer;
+            transition: margin-left 0.4s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <h1>인라인 css 테스트</h1>
+    <!-- <p style="color:red; background-color: antiquewhite;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, voluptatibus eaque? Fuga in nam commodi, officiis ipsa adipisci totam eum autem excepturi? Repellendus optio nihil ab velit sequi ea deserunt!</p> -->
+    <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates excepturi quidem ea facere, ipsam nisi placeat rem atque ut. Earum quibusdam id architecto repellat, eaque quos iusto nemo voluptates quae!</p>
+    <div class="box" onclick = "marginLeft1()" >눌러보셈</div>
+    <script>
+        /*
+            위의 box div를 클릭하면 우측으로 100px 이동하도록 프로그래밍 해보세요
+            -hint
+            xxx.style.marginLeft = "100px"
+        */
+       marginLeft1 = function(){
+            document.querySelector(".box").style.marginLeft = "100px";
+       }
+    </script>
+</body>
+</html>

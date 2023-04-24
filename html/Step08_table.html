@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step08_table.html</title>
+    <style>
+        .my-table{
+            /* collapse는 table 경계선 사이의 공간을 없애는 것 */
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>표(talble) 형식으로 정보를 출력하기</h1>
+    <table>
+        <!--
+            tr 요소 하나는 행 하나를 의미 하는 것이다
+            tr의 자식요소로 th 나 td 가 오는데 해당 요소의 갯수가 칼럼의 갯수를 결정한다.
+            아래내용은 행 하나를 세개의 칼럼으로 구성하겠다. 라는 의미이다
+        -->
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>주소</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>김구라</th>
+            <th>노량진</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>해골</th>
+            <th>행신동</th>
+        </tr>
+    </table>
+    <table border="1" class="my-table">
+        <!--
+            tr 요소 하나는 행 하나를 의미 하는 것이다
+            tr의 자식요소로 th 나 td 가 오는데 해당 요소의 갯수가 칼럼의 갯수를 결정한다.
+            아래내용은 행 하나를 세개의 칼럼으로 구성하겠다. 라는 의미이다
+        -->
+        <tr>
+            <th>번호</th>
+            <th>이름</th>
+            <th>주소</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>김구라</th>
+            <th>노량진</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>해골</th>
+            <th>행신동</th>
+        </tr>
+    </table>
+</body>
+</html>
